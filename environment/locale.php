@@ -14,8 +14,8 @@ class Locale {
 			global $locale;
 			$keys = explode('.', $str);
 			foreach ($keys as $i => $k) {
-				if (!$i) $r = $locale->l[$k];
-				else $r = $r[$k];
+				if (!$i) $r = isset($locale->l[$k]) ? $locale->l[$k] : false;
+				else $r = isset($r[$k]) ? $r[$k] : false;
 			}
 			return $r;
 		};
