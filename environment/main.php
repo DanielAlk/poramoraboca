@@ -51,8 +51,7 @@ class Environment {
 		foreach (glob($dir."*.php") as $filename) {
 			require $filename;
 			$class_name = str_replace(array($dir,'.php'), '', $filename);
-			$var_name = str_replace('_helper', '', $class_name);
-			$GLOBALS[$var_name] = new $class_name;
+			new $class_name;
 		}
 		//GET AND SET CONTROLLERS
 		require 'controllers/application_controller.php';
