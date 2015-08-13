@@ -33,6 +33,7 @@ class Locale {
 			global $locale;
 			$current = preg_replace('/[\?&]?'.$locale->config['param'].'=\w+/', '', $_SERVER['REQUEST_URI']);
 			if ($lng == $locale->config['default']) echo $current;
+			elseif (strpos($current, '?') !== false) echo $current.'&'.$locale->config['param'].'='.$lng;
 			else echo $current.'?'.$locale->config['param'].'='.$lng;
 		}
 	}
