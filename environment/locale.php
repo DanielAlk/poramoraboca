@@ -17,6 +17,11 @@ class Locale {
 				if (!$i) $r = isset($locale->l[$k]) ? $locale->l[$k] : false;
 				else $r = isset($r[$k]) ? $r[$k] : false;
 			}
+			if (preg_match_all('/\{\{([\w\d\.]+)\}\}/', $r, $matches)) {
+				foreach ($matches[1] as $str) {
+					$r = str_replace('{{'.$str.'}}', _l($str), $r);
+				}
+			}
 			return $r;
 		};
 
