@@ -28,6 +28,13 @@ class Locale {
 		function l($str) {
 			echo _l($str);
 		};
+
+		function change_locale($lng) {
+			global $locale;
+			$current = preg_replace('/[\?&]?'.$locale->config['param'].'=\w+/', '', $_SERVER['REQUEST_URI']);
+			if ($lng == $locale->config['default']) echo $current;
+			else echo $current.'?'.$locale->config['param'].'='.$lng;
+		}
 	}
 }
 ?>
