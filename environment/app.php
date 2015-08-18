@@ -66,7 +66,7 @@ class App {
 		return $is_empty ? null : $return;
 	}
 
-
+	# TODO: this function should also execute the method asociated with the view in the controller
 	protected function render($view_name) {
 		$this->view = $this->views_directory.'/'.$view_name.'.php';
 	}
