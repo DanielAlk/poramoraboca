@@ -26,10 +26,10 @@ class Environment {
 		//GET AND SET ENVIRONMENT CLASSES
 		require '../environment/app.php';
 		require '../environment/base.php';
-		require '../environment/locale.php';
+		require '../environment/in398n.php';
 		require '../environment/asset.php';
 		require '../environment/mailer.php';
-		$GLOBALS['locale'] = new Locale;
+		$GLOBALS['in398n'] = new in398n;
 		$GLOBALS['asset'] = new Asset;
 		$GLOBALS['mailer'] = new Mailer($settings['mailer']);
 		//GET AND SET PLUGINS

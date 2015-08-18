@@ -1,5 +1,5 @@
 <?php
-class Locale {
+class in398n {
 	public function __construct() {
 		$parsed_ini = parse_ini_file('../config/app.ini', true);
 		$this->config = $parsed_ini['locale'];
