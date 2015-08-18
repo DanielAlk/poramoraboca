@@ -8,7 +8,7 @@ class ActiveBase {
 		$class_name = end($class_route);
 		if ($class_name == 'ActiveBase') return;
 		$model_name = str_replace('_model', '', $class_name);
-		$this->table = strtolower($model_name).'s';
+		$this->table = strtolower($model_name);
 		$this->pdo = new PDO(
 			'mysql:host='.$data['host'].';
 			dbname='.$data['dbname'].';
@@ -16,6 +16,10 @@ class ActiveBase {
 			$data['user'], $data['pass'],
 			array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
 			);
+	}
+
+	public function __destruct() {
+		$this->pdo = null;
 	}
 
 	public function truncate() {
