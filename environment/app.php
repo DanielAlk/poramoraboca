@@ -13,7 +13,10 @@ class App {
 		//SET LOG IN TESTING OR DEVELOPMENT ENVIRONMENTS
 		if ($GLOBALS['debug']) $GLOBALS['log'] = json_encode($log);
 		//SET PAGE HEADERS, YOU CAN CHANGE IT OR ADD MORE HEADERS IN YOUR CONTROLLER
-		$this->cache_control('static');
+		# this is commented as it has some unexpected results
+		# and im handling cache of assets in htaccess so this cache_control can be used optionally 
+		# but no more static by default
+		# $this->cache_control('static');
 		//SET METHODS
 		$this->set_methods();
 		//CHECK IF ACTION EXISTS AND RUN

@@ -1,11 +1,11 @@
 <?php
 class Environment {
-	public function __construct($load_database = false) {
+	public function __construct() {
 		set_include_path('../app/');
 		$app_dir = get_include_path();
 		//READ CONFIGURATION AND SETTINGS
 		$settings = parse_ini_file('../config/env.ini', true);
-		$database = $load_database ? $settings['database'] : false;
+		$database = $settings['database'];
 		//SET GLOBALS
 		$GLOBALS['environment'] = $settings['environment'];
 		$GLOBALS['host'] = $settings['host'];
