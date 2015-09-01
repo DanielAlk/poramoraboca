@@ -40,6 +40,7 @@ class Asset {
 		'ico' => array('assets/img/', 'img/'),
 		'eot' => array('assets/fonts/', 'fonts/'),
 		'woff' => array('assets/fonts/', 'fonts/'),
+		'woff2' => array('assets/fonts/', 'fonts/'),
 		'ttf' => array('assets/fonts/', 'fonts/'),
 		'svg' => array('assets/fonts/', 'fonts/')
 		);
