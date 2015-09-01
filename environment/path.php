@@ -9,11 +9,12 @@ class Path {
 		$path = $_GET['path'];
 		unset($_GET['path']);
 		$params = array();
+		if (strpos($path, '/') == strlen($path)-1) $path = substr($path, 0, strlen($path)-1);
 		if (in_array($path, $routes)) {
 			$params = $this->params_from_key(array_search($path, $routes), $params);
 		}
 		else foreach($routes as $route) {
-			if (preg_match_all('/{\w+}\//', $route, $results)) {
+			if (preg_match_all('/{\w+}\/?/', $route, $results)) {
 				foreach ($results as $r) {
 					$cleaned_route = str_replace($r, '', $route);
 				}
@@ -102,7 +103,7 @@ class Path {
 			};
 			
 			//CLEAN ROUTE IF PATTERN STILL THERE
-			$route = preg_replace('/{\w+}\//', '', $route);
+			$route = preg_replace('/{\w+}\/?/', '', $route);
 			//CLEAN ROUTE IF DOUBLE BAR FOUND
 			$route = preg_replace('/\/\//', '/', $route);
 
