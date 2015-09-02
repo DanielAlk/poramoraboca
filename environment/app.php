@@ -20,9 +20,6 @@ class App {
 	}
 
 	private function set_methods() {
-		function redirect_to($param = false) {
-			$GLOBALS['app']->redirect_path = $param;
-		}
 		function render($file, $echos = array()) {
 			foreach($GLOBALS as $key => $value) { $$key = $value; }
 			foreach ($echos as $key => $value) { $$key = $value; }
@@ -33,14 +30,10 @@ class App {
 		}
 	}
 
-	# TODO: Review all this logic, add support for messages in redirects (using session ?)
-	public $redirect_path = false;
 	public function buffer() {
 		$ob_status = ob_get_status();
 		if ($ob_status['type']) ob_end_flush();
-		if ($this->redirect_path) header('Location: '.$this->redirect_path);
 	}
-	####################################################################################
 
 	private function before_action_method() {
 		if (!isset($this->before_actions) || !is_array($this->before_actions)) return null;
