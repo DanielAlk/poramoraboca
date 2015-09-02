@@ -12,11 +12,6 @@ class App {
 		$log = array('controller'=>$this->controller,'action'=>$this->action,'POST'=>$_POST,'GET'=>$_GET);
 		//SET LOG IN TESTING OR DEVELOPMENT ENVIRONMENTS
 		if ($GLOBALS['debug']) $GLOBALS['log'] = json_encode($log);
-		//SET PAGE HEADERS, YOU CAN CHANGE IT OR ADD MORE HEADERS IN YOUR CONTROLLER
-		# this is commented as it has some unexpected results
-		# and im handling cache of assets in htaccess so this cache_control can be used optionally 
-		# but no more static by default
-		# $this->cache_control('static');
 		//SET METHODS
 		$this->set_methods();
 		//CHECK IF ACTION EXISTS AND RUN
@@ -70,16 +65,6 @@ class App {
 	protected function render($view_name) {
 		$this->view = $this->views_directory.'/'.$view_name.'.php';
 	}
-	
-	protected function cache_control($type, $replace_existing_headers = false) {
-		$types = $this->settings['cache-control'];
-		$page_headers = isset($GLOBALS['page_headers']) ? $GLOBALS['page_headers'] : array();
-		if (array_key_exists($type, $types)) $header_string = 'Cache-Control: '.$types[$type];
-		else $header_string = 'Cache-Control: '.$type;
-		if (!$replace_existing_headers) $page_headers[] = $header_string;
-		else $page_headers = array($header_string);
-		$GLOBALS['page_headers'] = $page_headers;
-	}
 
 	protected function not_found() {
 		header("HTTP/1.0 404 Not Found");
@@ -101,12 +86,5 @@ class App {
  * 	array(array('action1', 'action2'), 'method_to_execute_before_those_actions'),
  * 	array('method_before_action3')
  * );
- */
-
-/* CACHE_CONTROL
- *
- * it looks on $this->settings['cache-control'] array for a key = (string)@param,
- * and sets its value as a cache control header in the global $page_headers array
- * if key is not found in the array, @param will be trated as a valid value for a cache-control header
  */
 ?>
