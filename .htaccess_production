@@ -6,7 +6,7 @@ RewriteBase /public/
 # SET RULES FOR ASSETS
 RewriteRule ^css/([\w\.\-\_\/]+).css$ css/main.php?asset=$1 [QSA,L]
 RewriteRule ^js/([\w\.\-\_\/]+).js$ js/main.php?asset=$1 [QSA,L]
-RewriteRule ^img/([\w\.\-\_\/]+)$ /app/assets/img/$1 [QSA,L]
+RewriteRule ^img/([\w\.\-\_\/]+)$ /app/assets/images/$1 [QSA,L]
 RewriteRule ^fonts/([\w\.\-\_\/]+)$ /app/assets/fonts/$1 [QSA,L]
 
 # DEFAULT RULES

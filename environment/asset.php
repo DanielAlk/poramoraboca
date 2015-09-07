@@ -2,10 +2,20 @@
 class Asset {
 	public function __construct() {
 		global $base_url;
-		foreach ($this->assets as $key => $asset) {
-			$this->assets[$key][0] = get_include_path().$asset[0];
-			$this->assets[$key][1] = $base_url.$asset[1];
+		$assets = array();
+		$settings = parse_ini_file('../config/assets.ini', true);
+		$this->force_types = $settings['force_types'];
+		unset($settings['force_types']);
+		foreach ($settings as $ext => $dirs) {
+			$real = get_include_path().'assets/'.array_keys($dirs)[0].'/';
+			$rewriten = $base_url.$dirs[array_keys($dirs)[0]].'/';
+			if(!strpos($ext, ',')) $assets[$ext] = array($real, $rewriten);
+			else {
+				$exts = explode(',', $ext);
+				foreach ($exts as $e) $assets[$e] = array($real, $rewriten);
+			}
 		}
+		$this->assets = $assets;
 	}
 	
 	public function path($str, $type = null) {
@@ -31,20 +41,8 @@ class Asset {
 		print $this->assets[$ext][1].$filename.".$ext";
 	}
 
-	private $assets = array(
-		'js' => array('assets/javascripts/', 'js/'),
-		'css' => array('assets/stylesheets/', 'css/'),
-		'jpg' => array('assets/img/', 'img/'),
-		'png' => array('assets/img/', 'img/'),
-		'gif' => array('assets/img/', 'img/'),
-		'ico' => array('assets/img/', 'img/'),
-		'eot' => array('assets/fonts/', 'fonts/'),
-		'woff' => array('assets/fonts/', 'fonts/'),
-		'woff2' => array('assets/fonts/', 'fonts/'),
-		'ttf' => array('assets/fonts/', 'fonts/'),
-		'svg' => array('assets/fonts/', 'fonts/')
-		);
+	private $assets = array();
 
-	private $force_types = array( 'img' => 'jpg', 'js' => 'js', 'css' => 'css', 'font' => 'ttf' );
+	private $force_types = array();
 }
 ?>
