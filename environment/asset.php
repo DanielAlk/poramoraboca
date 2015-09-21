@@ -3,7 +3,7 @@ class Asset {
 	public function __construct() {
 		global $base_url;
 		$assets = array();
-		$settings = parse_ini_file('../config/assets.ini', true);
+		$settings = parse_ini_file(__DIR__.'/../config/assets.ini', true);
 		$this->force_types = $settings['force_types'];
 		unset($settings['force_types']);
 		foreach ($settings as $ext => $dirs) {
