@@ -6,6 +6,8 @@ class application_helper {
 	
 	public function __construct() {
 	
+		$GLOBALS['extra_js'] = '';
+		
 		function some_function() {
 		}
 	
