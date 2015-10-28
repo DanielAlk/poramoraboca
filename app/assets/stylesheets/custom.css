@@ -1,0 +1,43 @@
+<?php $gold = '#FBC419'; ?>
+<?php $blue = '#233b6b'; ?>
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400; color: <?php echo $gold; ?>;
+	font-size: 16px;
+}
+a { color: inherit; }
+a:hover, a:focus { color: inherit; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 700; }
+h1, .h1 { font-size: 50px; }
+
+/* TEXT COLOR */
+.text-white { color: #FFF; }
+.text-gold { color: <?php echo $gold; ?>; }
+.text-blue { color: <?php echo $blue; ?>; }
+
+/* BACKGROUND COLORS */
+.bg-blue { background-color: <?php echo $blue; ?>; }
+.bg-gold { background-color: <?php echo $gold; ?>; }
+
+/* BACKGROUND IMAGES */
+.bg-bombonera360 { background: url('<?php $asset->path('bombonera360.jpg') ?>') no-repeat center; background-size: cover; }
+.bg-banderas { background: url('<?php $asset->path('banderas.jpg') ?>') no-repeat center; background-size: cover; }
+.bg-discurso { background: url('<?php $asset->path('discurso.jpg') ?>') no-repeat center right; background-size: cover; }
+
+/* ICONS */
+.icon { display: inline-block; background: no-repeat; background-size: auto 100%; vertical-align: middle; margin-right: 8px; margin-top: -1px; }
+.icon.social { background-image: url('<?php $asset->path('icons-social.png') ?>'); width: 25px; height: 25px; }
+.icon.social.facebook { background-position: 0 0; }
+.icon.social.twitter { background-position: -25px 0; }
+.icon.social.email { background-position: -50px 0; }
+.icon.social.photo { background-position: -75px 0; }
+@media(min-width: 768px) {
+	a:hover .icon.social, a:focus .icon.social { background-image: url('<?php $asset->path('icons-social-hover.png'); ?>'); }
+}
+
+/* BTN */
+.btn { border-radius: 1px; font-size: 1.1em; padding: 6px 20px; }
+.btn-primary { background-color: <?php echo $blue ?>; color: <?php echo $gold ?>; border-color: <?php echo $gold ?>; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: <?php echo $gold ?>; color: <?php echo $blue ?>; border-color: <?php echo $blue ?>;
+}

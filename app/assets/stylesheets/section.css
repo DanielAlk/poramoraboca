@@ -1,0 +1,13 @@
+section { padding-top: 90px; padding-bottom: 50px; }
+
+/* SLIDE */
+.slide:not(.active) { display: none; }
+
+.slide-caption { max-width: 532px; position: absolute; top: 50%; margin-top: -190px; }
+.slide-caption p { margin: 30px 0; }
+.slide-image { left: 50%; margin-left: 150px; }
+
+.slider-indicators { height: 50px; line-height: 50px; }
+.slider-indicators>a { display: inline-block; height: 15px; width: 15px; border-radius: 50%; background-color: <?php echo $gold ?>; margin-right: 15px; }
+.slider-indicators>a:last-of-type { margin-right: 0; }
+.slider-indicators>a.active { background-color: <?php echo $blue ?>; border: 3px solid <?php echo $gold ?>; }

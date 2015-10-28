@@ -1,0 +1,10 @@
+header { z-index: 9; }
+header>div { height: 90px; padding: 18px;padding-left: 225px; padding-right: 150px;}
+header>div>.left { top: 50%; margin: -29px 18px; }
+header>div>.right { top: 50%; margin: -12.5px 18px; }
+header>div>.menu { padding: 16px; position: relative; }
+
+header nav {  display: inline-block;position: absolute;left: 50%;margin-left: -370px;}
+header nav a { font-weight: 700; font-size: 14px; }
+header nav>span { margin-right: 50px; }
+header nav>span:last-of-type { margin-right: 0; }
