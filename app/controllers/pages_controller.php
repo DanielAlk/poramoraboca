@@ -8,5 +8,7 @@ class pages_controller extends ApplicationController {
 	
 	protected function proposal() {}
 
+	protected function schedule() {}
+
 }
 ?>

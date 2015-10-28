@@ -8,7 +8,10 @@ body {
 a { color: inherit; }
 a:hover, a:focus { color: inherit; }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 700; }
+h2, .h2 { font-size: 36px; }
 h1, .h1 { font-size: 50px; }
+
+.container.limited { max-width: 970px; }
 
 /* TEXT COLOR */
 .text-white { color: #FFF; }
@@ -17,16 +20,17 @@ h1, .h1 { font-size: 50px; }
 
 /* BACKGROUND COLORS */
 .bg-blue { background-color: <?php echo $blue; ?>; }
-.bg-gold { background-color: <?php echo $gold; ?>; }
+.bg-gold { background-color: <?php echo $gold; ?>; color: <?php echo $blue ?>; }
 
 /* BACKGROUND IMAGES */
 .bg-bombonera360 { background: url('<?php $asset->path('bombonera360.jpg') ?>') no-repeat center; background-size: cover; }
+.bg-bombonera360-blue { background: url('<?php $asset->path('bombonera360-blue.jpg') ?>') no-repeat center; background-size: cover; }
 .bg-banderas { background: url('<?php $asset->path('banderas.jpg') ?>') no-repeat center; background-size: cover; }
 .bg-discurso { background: url('<?php $asset->path('discurso.jpg') ?>') no-repeat center right; background-size: cover; }
 
 /* ICONS */
-.icon { display: inline-block; background: no-repeat; background-size: auto 100%; vertical-align: middle; margin-right: 8px; margin-top: -1px; }
-.icon.social { background-image: url('<?php $asset->path('icons-social.png') ?>'); width: 25px; height: 25px; }
+.icon { display: inline-block; background: no-repeat; background-size: auto 100%; vertical-align: middle; }
+.icon.social { background-image: url('<?php $asset->path('icons-social.png') ?>'); width: 25px; height: 25px; margin-right: 8px; margin-top: -1px; }
 .icon.social.facebook { background-position: 0 0; }
 .icon.social.twitter { background-position: -25px 0; }
 .icon.social.email { background-position: -50px 0; }
@@ -35,9 +39,25 @@ h1, .h1 { font-size: 50px; }
 	a:hover .icon.social, a:focus .icon.social { background-image: url('<?php $asset->path('icons-social-hover.png'); ?>'); }
 }
 
+.icon.cabj { background-image: url('<?php $asset->path('icons-cabj.png') ?>'); height: 40px; width: 30px; }
+a.active .icon.cabj { background-image: url('<?php $asset->path('icons-cabj-active.png') ?>');}
+.icon.cabj.c { background-position: 0 0; }
+.icon.cabj.a { background-position: -32px 0; width: 40px;}
+.icon.cabj.b { background-position: -72px 0; width: 33px;}
+.icon.cabj.j { background-position: -105px 0; width: 34px;}
+
 /* BTN */
-.btn { border-radius: 1px; font-size: 1.1em; padding: 6px 20px; }
+.btn { border-radius: 1px; font-size: 1.1em; padding: 6px 20px; font-style: normal; }
+.btn-sm, .btn-group-sm>.btn { padding: 3px 14px; font-size: 14px; line-height: 1.5; }
 .btn-primary { background-color: <?php echo $blue ?>; color: <?php echo $gold ?>; border-color: <?php echo $gold ?>; }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	background-color: <?php echo $gold ?>; color: <?php echo $blue ?>; border-color: <?php echo $blue ?>;
 }
+.btn-default { background-color: <?php echo $gold ?>; color: <?php echo $blue ?>; border-color: <?php echo $gold ?>; }
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-color: <?php echo $blue ?>; color: <?php echo $gold ?>; border-color: <?php echo $gold ?>;
+}
+
+/* LIST */
+ul h1, ul h2, ul h3, ul h4, ul h5, ul h6 { margin: 0; }
+ul.list-stars li { background-image: url('<?php $asset->path('icon-star.png') ?>'); background-repeat: no-repeat; background-position: 2px 2px; padding-left: 50px; }

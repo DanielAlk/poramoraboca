@@ -11,7 +11,7 @@
 				<span><a class="uppercase" href="<?php echo $path->pages_home() ?>">home</a></span>
 				<span><a class="uppercase" href="<?php echo $path->pages_home() ?>">Logros de Gestión</a></span>
 				<span><a class="uppercase" href="<?php echo $path->pages_proposal() ?>">Propuesta 2015</a></span>
-				<span><a class="uppercase" href="<?php echo $path->pages_home() ?>">Agenda</a></span>
+				<span><a class="uppercase" href="<?php echo $path->pages_schedule() ?>">Agenda</a></span>
 				<span><a class="uppercase" href="<?php echo $path->pages_home() ?>">Agrupación JXB</a></span>
 				<span><a class="uppercase" href="<?php echo $path->pages_home() ?>">Participar</a></span>
 			</nav>

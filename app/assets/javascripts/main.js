@@ -3,7 +3,8 @@ $.fn.slider = function() {
 		var slider = this;
 		var $slider = $(slider);
 		var $slides = $slider.find('.slide');
-		var $indicators = $slider.find('.slider-indicators>a');
+		var $indicators = $slider.find('.slider-indicators>a').length ? $slider.find('.slider-indicators>a') : $slider.find('.slider-indicators-unstyled>a');
+		var $titles = $slider.find('.slider-titles').children();
 		var transition_is_active = false;
 
 		var toggle = function(e) {
@@ -20,12 +21,14 @@ $.fn.slider = function() {
 			if (transition_is_active) return;
 			transition_is_active = true;
 			var $this = $(this);
+			var href = $this.attr('href');
 			var $activeSlide = $slides.filter('.active');
-			var $nextSlide = $slides.filter($this.attr('href'));
+			var $nextSlide = $slides.filter(href);
+			var $nextTitle = $titles.filter('[data-for='+href+']');
 			$activeSlide.fadeOut(toggle);
 			$nextSlide.fadeIn(toggleEnd);
-			$indicators.removeClass('active');
-			$this.addClass('active');
+			$indicators.add($titles).removeClass('active');
+			$this.add($nextTitle).addClass('active');
 		};
 
 		$indicators.click(indicatorClickHandler);

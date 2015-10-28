@@ -1,4 +1,10 @@
 section { padding-top: 90px; padding-bottom: 50px; }
+section.with-title { padding-top: 154px; }
+.section-title { height: 64px; top: -64px; line-height: 64px; font-size: 40px; font-weight: 700; z-index: 8; }
+
+
+section .page { overflow: auto; }
+section .page .container { padding-top: 46px; } 
 
 /* SLIDE */
 .slide:not(.active) { display: none; }
@@ -11,3 +17,7 @@ section { padding-top: 90px; padding-bottom: 50px; }
 .slider-indicators>a { display: inline-block; height: 15px; width: 15px; border-radius: 50%; background-color: <?php echo $gold ?>; margin-right: 15px; }
 .slider-indicators>a:last-of-type { margin-right: 0; }
 .slider-indicators>a.active { background-color: <?php echo $blue ?>; border: 3px solid <?php echo $gold ?>; }
+
+.slider-titles>:not(.active) { display: none; }
+
+.cabj-slider-title { font-size: 30px;margin-left: 20px;font-style: italic;}
