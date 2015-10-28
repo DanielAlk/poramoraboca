@@ -4,4 +4,5 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <title><?php l('main.title'); ?></title>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href="<?php $asset->path('favicon.ico'); ?>" rel="icon" type="image/x-icon">

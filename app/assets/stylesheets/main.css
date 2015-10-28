@@ -1,0 +1,24 @@
+.relativize, .relative { position: relative; }
+.relativize>* { position: absolute; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+
+.absolute.top, .relativize>.top { top: 0; }
+.absolute.left, .relativize>.left { left: 0; }
+.absolute.bottom, .relativize>.bottom { bottom: 0; }
+.absolute.right, .relativize>.right { right: 0; }
+.absolute.center, .relativize>.center { left: 50%; top: 50%; }
+
+.expand, .expand-all, .expand-all * { width: 100%; height: 100%; }
+.expand-x { width: 100%; height: auto; }
+.expand-y { height: 100%; width: auto; }
+
+div.cover { background-size: cover; background-repeat: no-repeat; background-position: center center; }
+
+.uppercase { text-transform: uppercase; }
+.nowrap { white-space: nowrap; }
+.italic { font-style: italic; }
+
+.space-E-15 { margin-right: 15px; }
+.space-S-30 { margin-bottom: 30px; }
+.space-S-50 { margin-bottom: 50px; }
