@@ -14,6 +14,7 @@
 .expand-y { height: 100%; width: auto; }
 
 div.cover { background-size: cover; background-repeat: no-repeat; background-position: center center; }
+img.cover { width: 100%; height: auto; }
 img.baseline { vertical-align: baseline; }
 
 .uppercase { text-transform: uppercase; }
@@ -22,9 +23,14 @@ img.baseline { vertical-align: baseline; }
 
 .space-N-30 { margin-top: 30px; }
 .space-N-40 { margin-top: 40px; }
+.space-N-50 { margin-top: 50px; }
+.space-N-60 { margin-top: 60px; }
 .space-E-10 { margin-right: 10px; }
+.space-E-20 { margin-right: 20px; }
 .space-E-15 { margin-right: 15px; }
 .space-E-20 { margin-right: 20px; }
+.space-S-10 { margin-bottom: 10px; }
+.space-S-20 { margin-bottom: 20px; }
 .space-S-30 { margin-bottom: 30px; }
 .space-S-50 { margin-bottom: 50px; }
 .space-S-60 { margin-bottom: 60px; }

@@ -10,5 +10,7 @@ class pages_controller extends ApplicationController {
 
 	protected function schedule() {}
 
+	protected function community() {}
+
 }
 ?>
