@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php include 'layouts/_head.php'; ?>
-	<link href="<?php $asset->css(); ?>?291020151324" rel="stylesheet" type="text/css">
+	<link href="<?php $asset->css(); ?>?291020151512" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -10,7 +10,7 @@
 	<?php include $app->view; ?>
 	<?php include 'layouts/_footer.php'; ?>
 	<?php include 'modals/_participate.php'; ?>
-	<script src="<?php $asset->js(); ?>?291020151324" type="application/javascript"></script>
+	<script src="<?php $asset->js(); ?>?291020151512" type="application/javascript"></script>
 	<script>
 		$(function() {
 			<?php __('extra_js'); ?>

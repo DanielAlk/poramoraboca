@@ -41,7 +41,7 @@ extra_js;
 					<div class="space-S-30"><img src="<?php $asset->path('vorterix.png') ?>"></div>
 					<h2 class="h1 uppercase italic">Lanzamiento de campaña</h2>
 					<p class="text-white">Si no lo viste en vivo miralo ahora.<br>4 de Junio, 19:05 hs.</p>
-					<a class="btn btn-primary" href="<?php echo $path->pages_home() ?>">MIRÁ EL VIDEO</a>
+					<a class="btn btn-primary" href="#" data-toggle="modal" data-target="#modal_campaign_video">MIRÁ EL VIDEO</a>
 				</div>
 			</div>
 		</div>
@@ -53,3 +53,4 @@ extra_js;
 	</div>
 </section>
 <?php include 'modals/_patron.php' ?>
+<?php include 'modals/_campaign_video.php' ?>
