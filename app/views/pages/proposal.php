@@ -25,7 +25,13 @@ extra_js;
 								<a href="#slide_4"><i class="icon cabj j"></i></a>
 							</div>
 							<div class="pull-left cabj-slider-title">
-								<img class="baseline" src="<?php $asset->path('icon-star.png') ?>"> CLUB 
+								<img class="baseline" src="<?php $asset->path('icon-star.png') ?>">
+								<span class="slider-titles">
+									<span class="active" data-for="#slide_1"> CLUB</span>
+									<span data-for="#slide_2"> ATLÉTICO</span>
+									<span data-for="#slide_3"> BOCA</span>
+									<span data-for="#slide_4"> JUNIORS</span>
+								</span>
 								<img class="baseline" src="<?php $asset->path('icon-star.png') ?>"> POR <b>AMOR</b>
 								<span class="slider-titles">
 									<span class="active" data-for="#slide_1"> A LA INSTITUCIÓN</span>
