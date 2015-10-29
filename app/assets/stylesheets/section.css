@@ -4,7 +4,7 @@ section.with-title { padding-top: 154px; }
 
 
 section .page { overflow: auto; }
-section .page .container { padding-top: 46px; } 
+section .page .container:not(.no-space) { padding-top: 46px; }
 
 /* SLIDE */
 .slide:not(.active) { display: none; }

@@ -6,4 +6,6 @@ include 'custom.css'; echo "\r\n";
 include 'header.css'; echo "\r\n";
 include 'footer.css'; echo "\r\n";
 include 'section.css'; echo "\r\n";
+include 'modals.css'; echo "\r\n";
+include 'form.css'; echo "\r\n";
 ?>

@@ -6,6 +6,8 @@ class pages_controller extends ApplicationController {
 
 	protected function home() {}
 	
+	protected function management() {}
+	
 	protected function proposal() {}
 
 	protected function schedule() {}

@@ -21,6 +21,7 @@ img.baseline { vertical-align: baseline; }
 .nowrap { white-space: nowrap; }
 .italic { font-style: italic; }
 
+.space-N-20 { margin-top: 20px; }
 .space-N-30 { margin-top: 30px; }
 .space-N-40 { margin-top: 40px; }
 .space-N-50 { margin-top: 50px; }
@@ -35,6 +36,8 @@ img.baseline { vertical-align: baseline; }
 .space-S-50 { margin-bottom: 50px; }
 .space-S-60 { margin-bottom: 60px; }
 .space-W-15 { margin-left: 15px; }
+
+.space-NS-20 { margin-top: 20px; margin-bottom: 20px; }
 
 .inspace-N-2 { padding-top: 2px; }
 .inspace-N-4 { padding-top: 4px; }

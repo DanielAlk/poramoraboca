@@ -1,3 +1,4 @@
 footer>div { height: 50px; padding: 10px 20px; font-size: 12px; font-weight: 400; }
 footer>div>.pull-left>a:not(:last-of-type) { margin-right: 30px; }
+footer>div>.absolute.center { margin: -12px -48px; }
 footer img.brand {height: 30px; width: auto; margin-left: 30px; }
