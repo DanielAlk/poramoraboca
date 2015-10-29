@@ -11,7 +11,7 @@ extra_js;
 				<div class="slide-caption">
 					<div><img src="<?php $asset->path('cabj-bombonera360.png') ?>"></div>
 					<p class="text-white">
-						<span class="text-gold">#DeLaBomboneraNoNosVamos</span><br>
+						<big class="text-gold italic">#DeLaBomboneraNoNosVamos</big><br>
 						<br>
 						Bombonera360 es nuestra propuesta para la ampliación y reforma integral del Estadio Alberto J. Armando sin ceder la localía ni endeudar al Club.<br>
 						<br>
