@@ -15,7 +15,7 @@ extra_js;
 						<br>
 						Bombonera360 es nuestra propuesta para la ampliación y reforma integral del Estadio Alberto J. Armando sin ceder la localía ni endeudar al Club.<br>
 						<br>
-						Se puede.
+						<b>Se puede.</b>
 					</p>
 					<a class="btn btn-primary" target="_blank" href="http://bombonera360.com.ar/">VER PROYECTO</a>
 				</div>
