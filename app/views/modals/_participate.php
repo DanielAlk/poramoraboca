@@ -3,7 +3,7 @@
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       <div class="modal-body">
-      	<h2 class="modal-gold-title">PARTICIPA</h2>
+      	<h2 class="modal-gold-title">PARTICIPÁ</h2>
       	<h4 class="uppercase italic space-N-30">Comunicate con nosotros: contacto@juntosporboca.com</h4>
       	<h3 class="uppercase italic space-N-30"><img class="space-E-20" src="<?php $asset->path('icon-heart.png') ?>">Ficha de afiliación</h3>
       	<div class="row">

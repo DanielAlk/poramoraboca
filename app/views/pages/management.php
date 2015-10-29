@@ -10,7 +10,7 @@
 						<img class="cover" alt="Logros de Nuestra Gestión" src="<?php $asset->path('management-banner.jpg') ?>">
 					</div>
 					<div class="col-xs-9">
-						<h2 class="uppercase italic"><img class="baseline space-E-20" src="/ameal/img/icon-heart.png">FUTBOL</h2>
+						<h2 class="uppercase italic"><img class="baseline space-E-20" src="<?php $asset->path('icon-heart.png') ?>">FUTBOL</h2>
 						<h4 class="uppercase italic">Plantel campeón invicto y revalorizado:</h4>
 						<ul class="list-unstyled list-stars organize-y-5 text-white">
 							<li class="organize-y-2 inspace-N-4">
@@ -31,7 +31,7 @@
 								*2011 Gira de amistosos frente a Espanyol, AEK, Aris Salonica, Lask (Austria) y Palmeiras
 							</li>
 						</ul>
-						<h2 class="uppercase italic space-N-40"><img class="baseline space-E-20" src="/ameal/img/icon-heart.png">institución</h2>
+						<h2 class="uppercase italic space-N-40"><img class="baseline space-E-20" src="<?php $asset->path('icon-heart.png') ?>">institución</h2>
 						<h4 class="uppercase italic">siempre pensando en el socio:</h4>
 						<ul class="list-unstyled list-stars organize-y-5 text-white">
 							<li class="organize-y-2 inspace-N-4">
@@ -56,7 +56,7 @@
 								Ampliación y desarrollo del Departamento Médico.
 							</li>
 						</ul>
-						<h2 class="uppercase italic space-N-40"><img class="baseline space-E-20" src="/ameal/img/icon-heart.png">infraestructura</h2>
+						<h2 class="uppercase italic space-N-40"><img class="baseline space-E-20" src="<?php $asset->path('icon-heart.png') ?>">infraestructura</h2>
 						<h4 class="uppercase italic">reformamos y modernizamos la bombonera:</h4>
 						<ul class="list-unstyled list-stars organize-y-5 text-white">
 							<li class="organize-y-2 inspace-N-4">
@@ -114,7 +114,7 @@
 								Ampliación de área en el museo con acceso a la nueva confitería (sin renovación de contrato).
 							</li>
 						</ul>
-						<h2 class="uppercase italic space-N-40"><img class="baseline space-E-20" src="/ameal/img/icon-heart.png">finanzas</h2>
+						<h2 class="uppercase italic space-N-40"><img class="baseline space-E-20" src="<?php $asset->path('icon-heart.png') ?>">finanzas</h2>
 						<h4 class="uppercase italic">presupuesto superavitario:</h4>
 						<ul class="list-unstyled list-stars space-S-60 organize-y-5 text-white">
 							<li class="organize-y-2 inspace-N-4">
