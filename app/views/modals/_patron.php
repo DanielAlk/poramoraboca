@@ -1,9 +1,9 @@
 <div class="modal fade" id="modal_patron">
   <div class="modal-dialog">
     <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></span></button>
       <div class="modal-body">
-      	<h2 class="modal-gold-title">El "Patrón" Bermudez se sumó al proyecto de Jorge Amor Ameal</h2>
+      	<h2 class="modal-gold-title smaller">El "Patrón" Bermudez se sumó al proyecto de Jorge Amor Ameal</h2>
       	<p class="text-white space-N-40">
       		<big class="text-gold">El histórico caudillo de Boca Juniors se unió a Juntos por Boca para hacerse cargo de la dirección deportiva del Xeneize. Junto a Oscar Regenhardt y Aníbal Matellán, llevará adelante un proyecto integral que abarca el fútbol amateur, las divisiones inferiores y el fútbol profesional.</big><br>
       		<br>

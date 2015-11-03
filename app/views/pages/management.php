@@ -35,16 +35,13 @@
 						<h4 class="uppercase italic">siempre pensando en el socio:</h4>
 						<ul class="list-unstyled list-stars organize-y-5 text-white">
 							<li class="organize-y-2 inspace-N-4">
-								Conseguimos un predio de 30 hectáreas en Esteban Echeverría, con entrada por Au. Richieri, destinado a los socios y al plantel profesional.
+								Conseguimos un predio de 30 hectáreas en Esteban Echeverría frente al predio de AFA, con entrada por Au. Richieri, destinado a los socios y al plantel profesional.
 							</li>
 							<li class="organize-y-2 inspace-N-4">
 								Reforma del estatuto y desarrollo del "Socio adherente", pero con un sistema justo para el socio y coherente con la realidad del club.
 							</li>
 							<li class="organize-y-2 inspace-N-4">
-								Desarrollamos de manera formal el hoy llamado Abono Solidario.
-							</li>
-							<li class="organize-y-2 inspace-N-4">
-								Polideportivo destinado a los socios y al plantel profesional.
+								Desarrollamos de manera formal el hoy llamado "Abono Solidario".
 							</li>
 							<li class="organize-y-2 inspace-N-4">
 								Constantes actividades de Acción Social junto a Unicef, Fundación Social, Fundación SOS, LAN, Fundación Vida Silvestre y Un Techo para mi país (hoy Techo).
@@ -115,13 +112,13 @@
 							</li>
 						</ul>
 						<h2 class="uppercase italic space-N-40"><img class="baseline space-E-20" src="<?php $asset->path('icon-heart.png') ?>">finanzas</h2>
-						<h4 class="uppercase italic">presupuesto superavitario:</h4>
+						<h4 class="uppercase italic">Balance Récord de la historia del fútbol argentino:</h4>
 						<ul class="list-unstyled list-stars space-S-60 organize-y-5 text-white">
 							<li class="organize-y-2 inspace-N-4">
-								Dejamos un superávit récord de $50.000.000 (USD 11.600.000).
+								Dejamos un superávit récord de $50.000.000 (U$D 12.142.000).
 							</li>
 							<li class="organize-y-2 inspace-N-4">
-								Contratos comerciales con las principales marcas.
+								Contratos comerciales con las principales marcas del mundo.
 							</li>
 							<li class="organize-y-2 inspace-N-4">
 								Equilibramos las finanzas sin cerrar disciplinas deportivas.

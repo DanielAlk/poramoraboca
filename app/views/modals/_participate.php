@@ -1,7 +1,7 @@
 <div class="modal fade" id="modal_participate">
   <div class="modal-dialog">
     <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></span></button>
       <div class="modal-body">
       	<h2 class="modal-gold-title">PARTICIPÁ</h2>
       	<h4 class="uppercase italic space-N-30">Comunicate con nosotros: contacto@juntosporboca.com</h4>

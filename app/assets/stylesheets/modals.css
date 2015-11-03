@@ -1,10 +1,11 @@
 .modal-content { border: none; border-radius: 0; background-color: <?php echo $blue ?>; }
-.modal .close { position: absolute; right: 0; color: <?php echo $gold ?>; opacity: 1; font-size: 22px; margin: 1px 5px; z-index: 999; }
+.modal .close { position: absolute; right: 0; color: <?php echo $gold ?>; opacity: 1; font-size: 20px; margin: 1px 3px; z-index: 999; }
 
-.modal-gold-title { padding: 8px 20px; margin: 10px -20px; background-color: <?php echo $gold ?>; color: <?php echo $blue ?>; }
+.modal-gold-title { padding: 12px 20px 10px; margin: 10px -20px; font-style: italic; text-transform: uppercase; background-color: <?php echo $gold ?>; color: <?php echo $blue ?>; }
+.modal-gold-title.smaller { font-size: 30px; }
 
 @media(min-width: 768px) {
-	.modal-dialog { width: auto; margin: 100px 8.33%; }
+	.modal-dialog { width: auto; margin-left: 8.33%; margin-right: 8.33%; }
 	.modal-body { padding-left: 50px; padding-right: 50px; }
-	.modal-gold-title { padding: 8px 30px; margin: 10px -30px; }
+	.modal-gold-title { padding: 17px 30px 15px; margin: 10px -30px; }
 }

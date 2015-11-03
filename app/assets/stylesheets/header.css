@@ -5,6 +5,6 @@ header>div>.right { top: 50%; margin: -12.5px 18px; }
 header>div>.menu { padding: 16px; position: relative; }
 
 header nav { display: inline-block;position: absolute;left: 50%;margin-left: -370px; }
-header nav a { font-weight: 700; font-size: 14px; }
+header nav a { font-weight: 700; }
 header nav>span { margin-right: 50px; }
 header nav>span:last-of-type { margin-right: 0; }
