@@ -12,7 +12,7 @@ body.mobile section .page, body.tablet section .page { overflow: auto; }
 
 .slide-caption { max-width: 532px; position: absolute; top: 50%; margin-top: -190px; }
 .slide-caption p { margin: 30px 0; font-size: 1.15em; }
-.slide-image { left: 50%; margin-left: 150px; }
+.slide-image { left: 50%; margin-left: 150px; overflow: hidden; }
 
 .slider-indicators { height: 50px; line-height: 50px; }
 .slider-indicators>a { display: inline-block; height: 15px; width: 15px; border-radius: 50%; background-color: <?php echo $gold ?>; margin-right: 15px; }
@@ -33,7 +33,7 @@ body.mobile section .page, body.tablet section .page { overflow: auto; }
 }
 
 @media(max-width: 991px) {
-	.slide-caption { z-index: 1; }
+	.slide-caption { z-index: 1; top: 60%; }
 	.slide-image { left: 0; margin: 0; width: 100%; text-align: right; }
 }
 
@@ -42,12 +42,15 @@ body.mobile section .page, body.tablet section .page { overflow: auto; }
 	section.with-title { padding-top: 98px; }
 	.section-title { height: 38px; top: -38px; line-height: 38px; font-size: 20px; }
 	.slide-caption { width: 100%; left: 0; padding: inherit; }
+	.slide-caption p { margin: 15px 0; }
+	.slide-image img { right: -85px; position: relative;}
 	@media(max-width: 399px) {
 		.slide-caption .hashtag { font-size: inherit; }
-		.slide-image img { height: auto; width: 300px; }
+		.slide-image img { height: 500px; width: auto; }
 	}
 
 	.proposal-title-heart {  margin-right: 10px;height: 20px;width: auto;}
 	.cabj-slider-title { font-size: 24px;margin-left: 0;font-style: italic;line-height: 1;margin-top: 15px;}
+	.cabj-and-logo { width: 200px; height: auto; margin-left: -10px; }
 	.community-map { width: 90px;height: auto;}
 }

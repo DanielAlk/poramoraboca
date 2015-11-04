@@ -20,7 +20,7 @@ extra_js;
 						<p class="text-white">Profesionales de Juntos por Boca es un equipo interdisciplinario abocado a la aplicación, análisis, puesta en valor y resolución de las particularidades que el club presenta en la actualidad. Como respuesta a esto, diseñaron proopuestas concretas para el periodo 2015-2025, que incluyan el modo de llevarlas a cabo y finalidad. Las mismas fueron sometidas a debate con los socios en dos Convenciones realizadas en octubre 2014 y mayo 2015. @JPBprofesional</p>
 					</div>
 					<div class="col-sm-6 space-N-30-xs">
-						<h3 class="uppercase italic space-S-20">secretaría de profesionales</h3>
+						<h3 class="uppercase italic space-S-20">secretaría de la juventud</h3>
 						<img class="cover space-S-20" src="<?php $asset->path('community-4.jpg') ?>">
 						<p class="text-white">Profesionales de Juntos por Boca es un equipo interdisciplinario abocado a la aplicación, análisis, puesta en valor y resolución de las particularidades que el club presenta en la actualidad. Como respuesta a esto, diseñaron proopuestas concretas para el periodo 2015-2025, que incluyan el modo de llevarlas a cabo y finalidad. Las mismas fueron sometidas a debate con los socios en dos Convenciones realizadas en octubre 2014 y mayo 2015. @JPBprofesional</p>
 					</div>

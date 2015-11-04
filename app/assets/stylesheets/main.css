@@ -43,6 +43,9 @@ img.baseline { vertical-align: baseline; }
 	.space-N-0-xs { margin-top: 0; }
 	.space-N-10-xs { margin-top: 10px; }
 	.space-N-30-xs { margin-top: 30px; }
+	.space-S-0-xs { margin-bottom: 0px; }
+	.space-S-10-xs { margin-bottom: 10px; }
+	.space-S-20-xs { margin-bottom: 20px; }
 }
 
 .inspace-0 { padding: 0 !important; }

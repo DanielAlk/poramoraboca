@@ -8,6 +8,9 @@
 
 body.desktop .modal-body .page { max-height: 650px; overflow: auto; }
 @media(max-height: 870px) {
+	body.desktop .modal-body .page { max-height: 600px; }
+}
+@media(max-height: 780px) {
 	body.desktop .modal-body .page { max-height: 500px; }
 }
 @media(min-height: 1010px) {

@@ -2,15 +2,15 @@
 <html>
 <head>
 	<?php include 'layouts/_head.php'; ?>
-	<link href="<?php $asset->css(); ?>?291020151524" rel="stylesheet" type="text/css">
+	<link href="<?php $asset->css(); ?>?1504111754" rel="stylesheet" type="text/css">
 </head>
 
-<body class="<?php __('device') ?>">
+<body class="<?php __('device'); ?> <?php echo $params['action']; ?>">
 	<?php include 'layouts/_nav.php'; ?>
 	<?php include $app->view; ?>
 	<?php include 'layouts/_footer.php'; ?>
 	<?php include 'modals/_participate.php'; ?>
-	<script src="<?php $asset->js(); ?>?291020151524" type="application/javascript"></script>
+	<script src="<?php $asset->js(); ?>?1504111754" type="application/javascript"></script>
 	<script>
 		$(function() {
 			$('.scroll').scrollWindow({ device: "<?php __('device') ?>" });

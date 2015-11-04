@@ -4,7 +4,7 @@ MEDIA = {
 		xs: window.matchMedia('(max-width: 767px)'),
 		sm: window.matchMedia('(max-width: 991px)'),
 		md: window.matchMedia('(max-width: 1199px)'),
-		vs: window.matchMedia('(max-height: 720px)')
+		vs: window.matchMedia('(max-height: 627px)')
 	},
 	listener: function(e, mq) {
 		var data = e.data;
