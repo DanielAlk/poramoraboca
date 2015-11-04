@@ -11,5 +11,6 @@
 				<span><a class="uppercase" href="#" data-toggle="modal" data-target="#modal_participate">Participar</a></span>
 			</nav>
 		</div>
+		<div class="menu-button"><a href="javascript:void(0);"><i class="glyphicon glyphicon-list"></i></a></div>
 	</div>
 </header>

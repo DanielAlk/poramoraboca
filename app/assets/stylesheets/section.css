@@ -31,3 +31,8 @@ body.mobile section .page { overflow: auto; }
 	section.with-title { padding-top: 145px; }
 	.section-title { height: 55px; top: -55px; line-height: 55px; font-size: 30px; }
 }
+
+@media(max-width: 991px) {
+	.slide-caption { z-index: 1; }
+	.slide-image { left: 0; margin: 0; width: 100%; text-align: right; }
+}

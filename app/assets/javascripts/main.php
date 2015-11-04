@@ -8,4 +8,5 @@ include 'bootstrap.min.js'; echo "\r\n";
 include 'media.js'; echo "\r\n";
 include 'slider.js'; echo "\r\n";
 include 'scroll-window.js'; echo "\r\n";
+include 'menu.js'; echo "\r\n";
 ?>

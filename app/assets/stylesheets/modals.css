@@ -14,6 +14,9 @@
 	@media(max-height: 870px) {
 		.modal-body .page { max-height: 500px; }
 	}
+	@media(min-height: 1010px) {
+		.modal-body .page { max-height: 816px; }
+	}
 }
 
 @media(max-width: 1199px) {
