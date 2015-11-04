@@ -10,6 +10,9 @@ a:hover, a:focus { color: inherit; }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 700; }
 h2, .h2 { font-size: 36px; }
 h1, .h1 { font-size: 50px; }
+@media(max-height: 720px) {
+	body { min-height: 720px; position: relative; }
+}
 
 .container.limited { max-width: 970px; }
 

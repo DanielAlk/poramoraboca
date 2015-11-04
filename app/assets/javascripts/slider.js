@@ -36,6 +36,7 @@ $.fn.slider = function(delay) {
 			$(this).toggleClass('active');
 			resumeAfterTransition();
 			setTimer();
+			$(document).trigger('slider.end', slider);
 		};
 
 		var showSlide = function(href) {
@@ -71,4 +72,4 @@ $.fn.slider = function(delay) {
 		$indicators.click(indicatorClickHandler);
 		setTimer();
 	});
-}
+};

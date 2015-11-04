@@ -4,8 +4,11 @@
 .modal-gold-title { padding: 12px 20px 10px; margin: 10px -20px; font-style: italic; text-transform: uppercase; background-color: <?php echo $gold ?>; color: <?php echo $blue ?>; }
 .modal-gold-title.smaller { font-size: 30px; }
 
+.modal-body .page { position: relative; }
+
 @media(min-width: 768px) {
 	.modal-dialog { width: auto; margin-left: 8.33%; margin-right: 8.33%; }
 	.modal-body { padding-left: 50px; padding-right: 50px; }
+	.modal-body .page { max-height: 650px; overflow: auto; }
 	.modal-gold-title { padding: 17px 30px 15px; margin: 10px -30px; }
 }

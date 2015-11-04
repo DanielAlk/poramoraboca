@@ -3,8 +3,9 @@ section.with-title { padding-top: 154px; }
 .section-title { height: 64px; top: -64px; line-height: 64px; font-size: 40px; font-weight: 700; z-index: 8; }
 
 
-section .page { overflow: auto; }
-section .page .container:not(.no-space) { padding-top: 46px; }
+section .page { overflow: hidden; }
+section .page .container:not(.no-space, .scroll) { padding-top: 46px; }
+body.mobile section .page { overflow: auto; }
 
 /* SLIDE */
 .slide:not(.active) { display: none; }
@@ -21,3 +22,7 @@ section .page .container:not(.no-space) { padding-top: 46px; }
 .slider-titles>:not(.active) { display: none; }
 
 .cabj-slider-title { font-size: 30px;margin-left: 20px;font-style: italic;}
+
+@media(max-height: 820px) {
+	.slide-image img { height: 700px; width: auto; }
+}

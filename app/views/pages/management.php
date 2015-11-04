@@ -3,6 +3,7 @@
 		<div class="section-title expand-x bg-gold">
 			<div class="container limited italic">LOGROS DE NUESTRA GESTIÓN</div>
 		</div>
+		<?php scroll_bar('.page.expand') ?>
 		<div class="page expand">
 			<div class="container no-space">
 				<div class="row">

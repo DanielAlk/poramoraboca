@@ -8,6 +8,7 @@ extra_js;
 		<div class="section-title expand-x bg-gold">
 			<div class="container limited italic">PROPUESTA 2015</div>
 		</div>
+		<?php scroll_bar('.page.expand') ?>
 		<div class="page expand">
 			<div class="container limited">
 				<div class="ratio-16by9">

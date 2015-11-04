@@ -1,8 +1,14 @@
+<?php
+$extra_js.=<<<extra_js
+$('.scroll').scrollWindow({ device: '$device' });
+extra_js;
+?>
 <section class="absolute top left expand with-title">
 	<div class="relativize expand bg-bombonera360-blue">
 		<div class="section-title expand-x bg-gold">
 			<div class="container limited italic">AGRUPACIÓN JUNTOS X BOCA</div>
 		</div>
+		<?php scroll_bar('.page.expand') ?>
 		<div class="page expand">
 			<div class="container limited">
 				<h4 class="uppercase italic">En “Juntos por Boca” estamos convencidos de que la participación de los socios es fundamental en la vida institucional del club. Por eso, fomentamos la inclusión de los mismos mediante la instrumentación de diferentes Secretarias: de la Mujer, Profesionales, de la Juventud y Vitalicios, además del sentido federal y de descentralización que aportan nuestras peñas y filiales.</h4>

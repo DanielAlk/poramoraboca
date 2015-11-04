@@ -5,7 +5,7 @@
 	<link href="<?php $asset->css(); ?>?291020151524" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="<?php __('device') ?>">
 	<?php include 'layouts/_nav.php'; ?>
 	<?php include $app->view; ?>
 	<?php include 'layouts/_footer.php'; ?>
@@ -13,7 +13,8 @@
 	<script src="<?php $asset->js(); ?>?291020151524" type="application/javascript"></script>
 	<script>
 		$(function() {
-			<?php __('extra_js'); ?>
+			$('.scroll').scrollWindow({ device: "<?php __('device') ?>" });
+			<?php __('extra_js') ?>
 		});
 	</script>
 	<?php if (isset($log)) echo "<script>console.log(JSON.parse('$log'));</script>"; ?>

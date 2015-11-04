@@ -8,7 +8,8 @@ class application_helper {
 	
 		$GLOBALS['extra_js'] = '';
 		
-		function some_function() {
+		function scroll_bar($page, $in_modal = false) {
+			include 'shared/_scroll_bar.php';
 		}
 	
 	}
