@@ -14,18 +14,19 @@ extra_js;
 				<div class="ratio-16by9">
 					<iframe src="https://www.youtube.com/embed/Z34bt9r2wbg?rel=0" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<h2 class="uppercase italic"><img class="baseline space-E-20" src="<?php $asset->path('icon-heart.png') ?>">Nuestra propuesta se basa en 4 pilares</h2>
-				<h4 class="uppercase italic">Hacé click en cada letra y conocé nuestras propuestas. <a href="javascrip:void(0);" class="btn btn-sm btn-default space-W-15">DESCARGAR</a></h4>
+				<h2 class="uppercase italic"><img class="baseline space-E-20 proposal-title-heart" src="<?php $asset->path('icon-heart.png') ?>">Nuestra propuesta se basa en 4 pilares</h2>
+				<h4 class="uppercase italic">Hacé click en cada letra y conocé nuestras propuestas. <a href="javascrip:void(0);" class="btn btn-sm btn-default space-W-15 hidden-xs">DESCARGAR</a></h4>
+				<div class="visible-xs"><a href="javascrip:void(0);" class="btn btn-sm btn-default">DESCARGAR</a></div>
 				<div class="slider-cabj">
 					<div class="space-N-30">
-						<div class="pull-left">
-							<div class="slider-indicators-unstyled pull-left">
+						<div class="pull-left cancel-pull-xs">
+							<div class="slider-indicators-unstyled pull-left cancel-pull-xs">
 								<a class="active" href="#slide_1"><i class="icon cabj c"></i></a>
 								<a href="#slide_2"><i class="icon cabj a"></i></a>
 								<a href="#slide_3"><i class="icon cabj b"></i></a>
 								<a href="#slide_4"><i class="icon cabj j"></i></a>
 							</div>
-							<div class="pull-left cabj-slider-title">
+							<div class="pull-left cancel-pull-xs cabj-slider-title">
 								<img class="baseline" src="<?php $asset->path('icon-star.png') ?>">
 								<span class="slider-titles">
 									<span class="active" data-for="#slide_1"> CLUB</span>
@@ -46,7 +47,7 @@ extra_js;
 					</div>
 					<div class="space-N-30 relativize">
 						<div class="slide space-S-60 active" id="slide_1">
-							<ul class="list-unstyled list-stars organize-y-30">
+							<ul class="list-unstyled list-stars organize-y-30 organize-y-15-xs">
 								<li class="organize-y-2 inspace-N-4">
 									<h4 class="italic">PLAN ESTRATÉGICO BOCA JUNIORS 2025</h4>
 									<span class="text-white">Con Profesionalismo en la gestión de cada área y consenso con las demás agrupaciones políticas estableceremos los pilares de futuro de nuestra institución.</span>
@@ -74,7 +75,7 @@ extra_js;
 							</ul>
 						</div>
 						<div class="slide space-S-60" id="slide_2">
-							<ul class="list-unstyled list-stars organize-y-30">
+							<ul class="list-unstyled list-stars organize-y-30 organize-y-15-xs">
 								<li class="organize-y-2 inspace-N-4">
 									<h4 class="italic">NUESTRO DEPORTE AMATEUR NO TIENE PRECIO</h4>
 									<span class="text-white">Recuperación y fomento del deporte amateur. En la actualidad, se están cerrando disciplinas porque no pueden financiarse por sí mismas. No hay que mirar solo la rentabilidad, sino el valor que tiene cada actividad. Que la camiseta de Boca esté bien representada en cada deporte tiene que ser un orgullo.</span>
@@ -98,7 +99,7 @@ extra_js;
 							</ul>
 						</div>
 						<div class="slide space-S-60" id="slide_3">
-							<ul class="list-unstyled list-stars organize-y-30">
+							<ul class="list-unstyled list-stars organize-y-30 organize-y-15-xs">
 								<li class="organize-y-2 inspace-N-4">
 									<h4 class="italic">LA BOMBONERA SERÁ SIEMPRE NUESTRA CASA</h4>
 									<span class="text-white">Lejos de proyectos de un nuevo estadio, nuestro mítico Templo Xeneize es ícono del fútbol mundial y será AMPLIADA e íntegramente modernizada con un proyecto viable y, por sobre todo, autosustentable sin comprometer ni endeudar al club de por vida.</span>
@@ -122,7 +123,7 @@ extra_js;
 							</ul>
 						</div>
 						<div class="slide space-S-60" id="slide_4">
-							<ul class="list-unstyled list-stars organize-y-30">
+							<ul class="list-unstyled list-stars organize-y-30 organize-y-15-xs">
 								<li class="organize-y-2 inspace-N-4">
 									<h4 class="italic">PLANIFICACIÓN</h4>
 									<span class="text-white">Realizaremos una planificación de desarrollo de nuestras divisiones inferiores. Un plan de trabajo serio basado en el "gen" de juego que caracteriza cada posición en la cancha. Homogeneidad desde los más chicos hasta los profesionales de primera división.</span>

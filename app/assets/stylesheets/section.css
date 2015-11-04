@@ -5,7 +5,7 @@ section.with-title { padding-top: 154px; }
 
 section .page { overflow: hidden; }
 section .page .container:not(.no-space, .scroll) { padding-top: 46px; }
-body.mobile section .page { overflow: auto; }
+body.mobile section .page, body.tablet section .page { overflow: auto; }
 
 /* SLIDE */
 .slide:not(.active) { display: none; }
@@ -35,4 +35,19 @@ body.mobile section .page { overflow: auto; }
 @media(max-width: 991px) {
 	.slide-caption { z-index: 1; }
 	.slide-image { left: 0; margin: 0; width: 100%; text-align: right; }
+}
+
+@media(max-width: 767px) {
+	section { padding-top: 60px; }
+	section.with-title { padding-top: 98px; }
+	.section-title { height: 38px; top: -38px; line-height: 38px; font-size: 20px; }
+	.slide-caption { width: 100%; left: 0; padding: inherit; }
+	@media(max-width: 399px) {
+		.slide-caption .hashtag { font-size: inherit; }
+		.slide-image img { height: auto; width: 300px; }
+	}
+
+	.proposal-title-heart {  margin-right: 10px;height: 20px;width: auto;}
+	.cabj-slider-title { font-size: 24px;margin-left: 0;font-style: italic;line-height: 1;margin-top: 15px;}
+	.community-map { width: 90px;height: auto;}
 }

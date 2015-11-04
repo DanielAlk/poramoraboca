@@ -6,17 +6,18 @@
 
 .modal-body .page { position: relative; }
 
+body.desktop .modal-body .page { max-height: 650px; overflow: auto; }
+@media(max-height: 870px) {
+	body.desktop .modal-body .page { max-height: 500px; }
+}
+@media(min-height: 1010px) {
+	body.desktop .modal-body .page { max-height: 816px; }
+}
+
 @media(min-width: 768px) {
 	.modal-dialog { width: auto; margin-left: 8.33%; margin-right: 8.33%; }
 	.modal-body { padding-left: 50px; padding-right: 50px; }
-	.modal-body .page { max-height: 650px; overflow: auto; }
 	.modal-gold-title { padding: 17px 30px 15px; margin: 10px -30px; }
-	@media(max-height: 870px) {
-		.modal-body .page { max-height: 500px; }
-	}
-	@media(min-height: 1010px) {
-		.modal-body .page { max-height: 816px; }
-	}
 }
 
 @media(max-width: 1199px) {

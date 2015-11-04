@@ -3,7 +3,7 @@
 		<div class="pull-left">
 			<a href="http://www.juntosporboca.com" target="_blank"><img src="<?php $asset->path('jxb.png') ?>"></a>
 		</div>
-		<div class="pull-right">
+		<div class="pull-right hidden-xs">
 			<a href="<?php echo $path->pages_home() ?>"><img class="brand" src="<?php $asset->path('logo.png') ?>"></a>
 		</div>
 		<div class="absolute center">

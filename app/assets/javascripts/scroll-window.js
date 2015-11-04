@@ -1,6 +1,6 @@
 /* REQUIRES media.js, jquery.mousewheel.js and jquery-draggable.min.js  */
 $.fn.scrollWindow = function(options) {
-	if (options && options.device == 'mobile') return;
+	if (options && options.device != 'desktop') return;
 	var default_options = {
 		update: function(update_function) {
 			update_function();

@@ -1,3 +1,10 @@
+<?php
+$extra_js.=<<<extra_js
+$('#modal_campaign_video').on('hidden.bs.modal', function() {
+  $(this).find('iframe').remove().appendTo($(this).find('.ratio-16by9'));
+});
+extra_js;
+?>
 <div class="modal fade" id="modal_campaign_video">
   <div class="modal-dialog">
     <div class="modal-content">

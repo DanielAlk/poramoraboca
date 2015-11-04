@@ -3,7 +3,7 @@
 .scroll-bar { position: absolute; height: 100%; width: 8px; right: 0; top: 0; margin: 0; border-top: 40px solid transparent;border-bottom: 40px solid transparent; z-index: 1;}
 .scroll-bar>i { position: absolute; height: 100%; width: 2px; background-color: <?php echo $gold ?>; left: 3px; top: 0; }
 .scroll-bar>span { position: relative; width: 8px; background-color: <?php echo $gold ?>; display: block; height: 50px; left: 0; top: 0; cursor: pointer; }
-body.mobile .scroll { display: none; }
+body.mobile .scroll, body.tablet .scroll { display: none; }
 
 .modal .scroll { padding-top: 70px; }
 .modal .scroll-bar { right: 20px; }

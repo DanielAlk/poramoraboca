@@ -28,5 +28,9 @@ header .menu-button { display: none; }
 }
 
 @media(max-width: 767px) {
-	header>div>.left { padding-left: 50px; }
+	header>div { height: 60px; padding: 18px; }
+	header>div>.menu { top: 50px; }
+	header>div>.left { padding-left: 30px; padding-top: 5px;}
+	header>div>.left img { height: 45px; width: auto;}
+	header .menu-button { height: 60px;line-height: 60px;font-size: 25px;margin-left: 15px;}
 }

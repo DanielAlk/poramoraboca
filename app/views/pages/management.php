@@ -7,10 +7,10 @@
 		<div class="page expand">
 			<div class="container no-space">
 				<div class="row">
-					<div class="col-xs-3">
+					<div class="col-sm-3 hidden-xs">
 						<img class="cover" alt="Logros de Nuestra Gestión" src="<?php $asset->path('management-banner.jpg') ?>">
 					</div>
-					<div class="col-xs-9">
+					<div class="col-sm-9">
 						<h2 class="uppercase italic"><img class="baseline space-E-20" src="<?php $asset->path('icon-heart.png') ?>">FUTBOL</h2>
 						<h4 class="uppercase italic">Plantel campeón invicto y revalorizado:</h4>
 						<ul class="list-unstyled list-stars organize-y-5 text-white">
