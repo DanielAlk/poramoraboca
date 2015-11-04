@@ -67,6 +67,14 @@ img.baseline { vertical-align: baseline; }
 .ratio-16by9 { position: relative; padding-bottom: 56.25%; }
 .ratio-16by9>* { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
+.visible-inline-block-xs { display: none; }
+
 @media(max-width: 767px) {
+	.top-p-65-xs { top: 65% !important; }
+	.top-p-70-xs { top: 70% !important; }
+	.top-p-73-xs { top: 73% !important; }
+	.top-p-75-xs { top: 75% !important; }
+	.top-p-77-xs { top: 77% !important; }
 	.cancel-pull-xs { float: none !important; }
+	.visible-inline-block-xs { display: inline-block; }
 }
