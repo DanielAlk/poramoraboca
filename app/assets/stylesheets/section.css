@@ -24,5 +24,10 @@ body.mobile section .page { overflow: auto; }
 .cabj-slider-title { font-size: 30px;margin-left: 20px;font-style: italic;}
 
 @media(max-height: 820px) {
-	.slide-image img { height: 700px; width: auto; }
+	.slide-image img { height: 550px; width: auto; }
+}
+
+@media(max-width: 1199px) {
+	section.with-title { padding-top: 145px; }
+	.section-title { height: 55px; top: -55px; line-height: 55px; font-size: 30px; }
 }

@@ -7,3 +7,7 @@ body.mobile .scroll { display: none; }
 
 .modal .scroll { padding-top: 70px; }
 .modal .scroll-bar { right: 20px; }
+
+@media(max-width: 1199px) {
+	.modal .scroll { padding-top: 50px; }
+}
