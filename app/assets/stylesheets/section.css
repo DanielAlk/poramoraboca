@@ -25,6 +25,7 @@ body.mobile section .page, body.tablet section .page { overflow: auto; }
 .slider-titles>:not(.active) { display: none; }
 
 .cabj-slider-title { font-size: 30px;margin-left: 20px;font-style: italic;}
+.cabj-and-logo { margin-left: -15px; }
 
 @media(max-height: 820px) {
 	.slide-image img { height: 550px; width: auto; }
