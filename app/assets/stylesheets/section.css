@@ -45,7 +45,8 @@ body.mobile section .page, body.tablet section .page { overflow: auto; }
 	section.with-title { padding-top: 98px; }
 	.section-title { height: 38px; top: -38px; line-height: 38px; font-size: 20px; }
 	.slide-caption { width: 100%; left: 0; padding: inherit; }
-	.slide-caption p { margin: 15px 0; }
+	.slide-caption h2 { margin: 15px 0 10px; }
+	.slide-caption p { margin: 10px 0; }
 	.slide-image img { right: -85px; position: relative;}
 	@media(max-width: 399px) {
 		.slide-caption .hashtag { font-size: 22px; }

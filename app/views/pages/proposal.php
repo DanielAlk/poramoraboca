@@ -109,15 +109,15 @@ extra_js;
 									<span class="text-white">Ampliaremos la capacidad del estadio desde el día uno. Se reubicaran a los plateítas de ese sector para que más bosteros tengan la posibilidad de alentar y apoyar al equipo desde esa tribuna.</span>
 								</li>
 								<li class="organize-y-2 inspace-N-4">
-									<h4 class="italic">EL CON VERDADERA JERARQUÍA E IDENTIDAD BOQUENSE</h4>
+									<h4 class="italic">PLANTEL CON VERDADERA JERARQUÍA E IDENTIDAD BOQUENSE</h4>
 									<span class="text-white">La planificación es clave. Contamos con un proyecto deportivo integral, que será dirigido por personas idóneas e ídolos xeneizes con autoridad y experiencia para transmitir la mística azul y oro.</span>
 								</li>
 								<li class="organize-y-2 inspace-N-4">
-									<h4 class="italic">OS SOMOS UN EQUIPO</h4>
+									<h4 class="italic">TODOS SOMOS UN EQUIPO</h4>
 									<span class="text-white">Fomentaremos la Unidad entre jugadores, cuerpo técnico, dirigentes, socios e hinchas sobre la base del respeto, el trabajo sentido de pertenencia y el compromiso.</span>
 								</li>
 								<li class="organize-y-2 inspace-N-4">
-									<h4 class="italic">CA VOLVERÁ A SER PROTAGONISTA DEL FÚTBOL MUNDIAL</h4>
+									<h4 class="italic">BOCA VOLVERÁ A SER PROTAGONISTA DEL FÚTBOL MUNDIAL</h4>
 									<span class="text-white">Vamos a retomar el camino de instalación de Boca Juniors en el mundo. Aspectos comerciales, giras de preparación, amistosos del más alto nivel (en el exterior y en nuestra casa).</span>
 								</li>
 							</ul>
